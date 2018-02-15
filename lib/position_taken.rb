@@ -2,7 +2,7 @@
 
 def position_taken?(board, index)
   
-  if board[index].length == 0
+  # if board[index].length == 0
     # this will only work if empty board space is "" not " "...'
     # also you can't call measure the length of nil because there is no length method for NilClass
     
