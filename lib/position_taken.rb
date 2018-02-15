@@ -8,7 +8,9 @@ def position_taken?(board, index)
     
   if (board[index] == "") || (board[index] == " ") || (board[index] == nil)
     false
-  else
-    puts "Sorry this position has already been taken, please try another"
+    elsif (board[index] == "X") || (board[index] == "O")
+    true
+    else
+    puts "Congratulations you found an unanticipated edge case and now this program is broken!"
   end
 end
