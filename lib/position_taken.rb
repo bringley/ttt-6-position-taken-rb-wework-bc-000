@@ -6,7 +6,7 @@ def position_taken?(board, index)
     elsif (board[index] == "X") || (board[index] == "O")
     true
     else
-    puts "Congratulations you found an unanticipated edge case and this !"
+    puts "Congratulations you found an unanticipated edge case!"
   end
 end
 
